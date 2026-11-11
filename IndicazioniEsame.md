@@ -1,4 +1,4 @@
-###Indicazioni esame
+### Indicazioni esame
 L'esame consiste in un progetto di gruppo che mostri la vostra comprensione degli argomenti trattati a lezione e si 
 focalizzi su uno degli algoritmi presentati e disegnati come modello della percezione umana.
 
