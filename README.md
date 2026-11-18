@@ -54,6 +54,7 @@ L'obiettivo è confrontare la distribuzione del numero di permessi tra applicazi
 Per effettuare questo confronto è stato utilizzato un istogramma, nel quale le due categorie sono rappresentate attraverso colori distinti. La sovrapposizione delle distribuzioni consente di osservare eventuali differenze nella frequenza e nella concentrazione delle applicazioni in corrispondenza dei diversi numeri di permessi.
 
 Questa prima osservazione permette di valutare se il numero complessivo di autorizzazioni possa rappresentare un elemento utile per distinguere le due categorie, oppure se sia necessario considerare anche la tipologia specifica dei permessi richiesti.
+<img width="948" height="571" alt="image" src="https://github.com/user-attachments/assets/b696c476-4e1a-4217-8dec-0482e81aee50" />
 
 ### 3.2 Distribuzione delle classi
 
@@ -69,6 +70,7 @@ L'analisi ha evidenziato una distribuzione pressoché equilibrata:
 La differenza tra le due categorie risulta quindi contenuta. Entrambe sono rappresentate da un numero molto simile di osservazioni, condizione favorevole per effettuare confronti tra i rispettivi comportamenti.
 
 La distribuzione è stata rappresentata attraverso un grafico a barre, che permette di confrontare visivamente il numero di applicazioni appartenenti alle due categorie.
+<img width="724" height="493" alt="image" src="https://github.com/user-attachments/assets/8f73f5e4-edba-4f6d-96e3-88d5e43ded49" />
 
 ### 3.3 Confronto delle frequenze dei permessi tra le due categorie
 
@@ -81,6 +83,7 @@ Successivamente, è stata calcolata la differenza assoluta tra le frequenze dell
 I risultati sono stati rappresentati attraverso un grafico a barre orizzontali, nel quale è possibile confrontare direttamente la frequenza di ogni permesso nelle due categorie.
 
 Questa analisi permette di individuare quali autorizzazioni risultino maggiormente rappresentate in una categoria rispetto all'altra. È importante precisare che una differenza di frequenza non implica necessariamente un rapporto causale con la natura malevola dell'applicazione, ma rappresenta un'indicazione statistica utile per approfondire le caratteristiche del dataset.
+<img width="1397" height="572" alt="image" src="https://github.com/user-attachments/assets/08b82038-855f-4708-8603-5d5faa568d17" />
 
 ### 3.4 Verifica della qualità e della struttura dei dati
 
@@ -134,9 +137,20 @@ Questa caratteristica è particolarmente rilevante per la fase successiva del pr
 
 ### 3.7 Analisi del numero di permessi per profilo
 
-[Da completare dopo il calcolo del numero medio, minimo, massimo e mediano dei permessi e l'osservazione del relativo istogramma.]
+Per approfondire la struttura delle configurazioni presenti nel dataset, è stato analizzato il numero di permessi contenuti in ciascun profilo distinto. Poiché le 86 caratteristiche sono rappresentate da valori binari, la somma dei valori di ogni profilo consente di determinare quanti permessi sono attivi in quella specifica configurazione.
+
+Dall'analisi emerge che il numero medio di permessi per profilo è pari a **12,24**, mentre la mediana è di **11 permessi**. Il valore minimo rilevato è 0, mentre quello massimo raggiunge 65 permessi.
+
+La differenza tra il valore minimo e quello massimo evidenzia una notevole variabilità nella composizione dei profili. Alcune configurazioni non presentano alcun permesso attivo, mentre altre ne includono un numero considerevolmente elevato.
+
+L'istogramma permette di osservare la distribuzione dei profili in base al numero di permessi richiesti, evidenziando le configurazioni più frequenti e quelle meno comuni.
+
+Questa analisi è utile per comprendere la distribuzione delle caratteristiche nello spazio dei dati e costituisce un punto di partenza per le successive operazioni di clustering, nelle quali verranno confrontate le applicazioni in base alla somiglianza delle rispettive configurazioni di permessi.
 
 ## 4. Preparazione dei dati
+<img width="1084" height="334" alt="image" src="https://github.com/user-attachments/assets/89423fd5-bf1c-49a7-aacb-d2162645f422" />
+<img width="984" height="484" alt="image" src="https://github.com/user-attachments/assets/832f9832-3454-4740-9f13-a2ed9d66ad50" />
+
 
 ## 5. Scelta delle misure di distanza e degli algoritmi di clustering
 
