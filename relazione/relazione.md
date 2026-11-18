@@ -24,8 +24,8 @@ Ogni osservazione rappresenta una singola applicazione Android, mentre le caratt
 
 Il dataset comprende 86 caratteristiche, rappresentate attraverso variabili numeriche intere con codifica binaria:
 
-- **1:** il permesso è presente tra quelli richiesti dall'applicazione;
-- **0:** il permesso non è presente tra quelli richiesti dall'applicazione.
+- **1** -> il permesso è presente tra quelli richiesti dall'applicazione;
+- **0** -> il permesso non è presente tra quelli richiesti dall'applicazione.
 
 Oltre alle caratteristiche, il dataset contiene una variabile target denominata `Result`, che identifica la categoria dell'applicazione, distinguendo tra applicazioni legittime e applicazioni malevole.
 
